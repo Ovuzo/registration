@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg.jpg")no-repeat
+    center center/cover;
+}
+.password{
+    margin: 20px 0;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+.card{
+    width: 30%;
+    height: 70vh;
+    background: #fff;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+input, button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 1px;
+}
+button{
+    background: #0330ff ;
+    color: #fff;
+    border-style: none;
+    margin-bottom: 1.5rem;
+}
+.btn p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

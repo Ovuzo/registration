@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/reg.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <section class="sec0">
+      <div class="sec0-div"><h1>THE REGISTRATION FORM</h1></div>
+    </section>
+
+    <section class="sec0-1">
+    <header>
+      <h1>REGISTRATION FORM</h1>
+    </header>
+    <main class="margin-x">
+      <form action="submit">
+        <section class="sec1">
+          <div class="fname">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              name="fname"
+              placeholder="Type your first  Name"
+            />
+          </div>
+          <div class="lname">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              name="lname"
+              placeholder="Type your last  Name"
+            />
+          </div>
+        </section>
+
+        <section class="sec2">
+            <div class="pnumber">
+              <label for="pnumber">Phone Number</label>
+              <input
+                type="number"
+                name="pnumber"
+                placeholder="Type your Phone number"
+              />
+            </div>
+            <div class="email">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Type your email"
+              />
+            </div>
+          </section>
+
+          <section class="sec3">
+            <div class="pnumber">
+              <label for="Gender">Gender</label>
+              <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="">select</option>
+              </select>
+            </div>
+            <div class="dob">
+              <label for="dob">Date of birth</label>
+              <input
+                type="date"
+                name="date"
+                placeholder="Type your email"
+              />
+            </div>
+          </section>
+          <section class="sec4">
+            <div class=""> 
+                <label for="fav-color">What is your favorite color</label>
+            <input type="color">
+            </div>
+
+            <div class=""> 
+                <label for="psw">Password</label>
+            <input type="password" value="password" required>
+            </div>
+          </section>
+
+          <section class="sec5">
+            <div class="">
+                <input type="reset" value="reset" name="reset">
+            </div>
+            <div class="">
+                <input type="submit" name="submit" value="Submit">
+            </div>
+          </section>
+      </form>
+    </main>
+    </section>
+  </body>
+</html>

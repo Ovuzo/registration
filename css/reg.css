@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.margin-x{
+    width: 90%;
+    margin: auto
+}
+header h1{
+    text-align: center;
+    margin-top: 60px;
+}
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.sec0{
+    width: 100%;
+    height: 100vh;
+    background: blue;
+    display: flex;
+    align-items: center;
+}
+.sec0-div{
+    background: white;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+.sec0-div h1{
+    color: blue;
+}
+.sec0-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    width: 50%;
+    /* background: rgb(248, 165, 165, 0.6); */
+    margin: auto;
+}
+.sec1, .sec2, .sec3, .sec4{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+input, select{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0px 0 20px 0;
+    border: 1px solid;
+    border-radius: 8px;
+    background: none;
+}
+input{
+    
+}
+.sec5{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+}
