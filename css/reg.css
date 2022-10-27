@@ -18,18 +18,27 @@ body{
 .sec0{
     width: 100%;
     height: 100vh;
-    background: blue;
+    background: url("../img/bg.jpg")no-repeat
+    center center/cover;
+   
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
 }
 .sec0-div{
-    background: white;
+    
     margin: auto;
     border-radius: 20px;
     padding: 20px;
 }
 .sec0-div h1{
-    color: blue;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
 }
 .sec0-1{
     display: flex;
